@@ -1,0 +1,6 @@
+version: "3"
+services:
+  nginx-php:
+    image: "sparkpos/docker-nginx-php:7.1-alpine"
+    volumes:
+      - ./code:/var/www/html
